@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Opdracht 3 | Style test</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+3:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    section .inner {
+      border: 1px solid #00000033;
+      border-radius: .3rem;
+    }
+    
+    section header {
+      position: relative;
+    }
+    section header::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: -.5rem;
+      width: calc(100% + 1rem);
+      height: 1px;
+      background-color: #00000033;
+    }
+  </style>
+</head>
+<body>
+  
+  <main class="container">
+    <h1 class="text-primary">Style test</h1>
+    <article id="style-examples" class="row">
+
+      <section id="headings" class="col-m-12 col-l-6">
+        <div class="inner">
+          <header>
+            <h2>Headings</h2>
+          </header>
+          <div class="content">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+          </div>
+        </div>
+      </section>
+      <section id="paragraphs" class="col-m-12 col-l-6">
+        <div class="inner">
+          <header>
+            <h2>Paragraphs</h2>
+          </header>
+          <div class="content">
+            <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not
+              required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+            <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not
+              required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+          </div>
+        </div>
+      </section>
+      <section id="lists" class="col-12">
+        <div class="inner">
+          <header>
+            <h2>Lists</h2>
+          </header>
+          <div class="content">
+
+            <ol>
+              <li>List Item 1</li>
+              <li>List Item 2
+                <ol>
+                  <li>List Item 1</li>
+                  <li>List Item 2
+                    <ol>
+                      <li>List Item 1</li>
+                      <li>List Item 2
+                        <ol>
+                          <li>List Item 1</li>
+                          <li>List Item 2
+                            <ol>
+                              <li>List Item 1</li>
+                              <li>List Item 2</li>
+                              <li>List Item 3</li>
+                            </ol>
+                          </li>
+                          <li>List Item 3</li>
+                        </ol>
+                      </li>
+                      <li>List Item 3</li>
+                    </ol>
+                  </li>
+                  <li>List Item 3</li>
+                </ol>
+              </li>
+              <li>List Item 3</li>
+            </ol>
+
+            <ul>
+              <li>List Item 1</li>
+              <li>List Item 2
+                <ul>
+                  <li>List Item 1</li>
+                  <li>List Item 2
+                    <ul>
+                      <li>List Item 1</li>
+                      <li>List Item 2
+                        <ul>
+                          <li>List Item 1</li>
+                          <li>List Item 2
+                            <ul>
+                              <li>List Item 1</li>
+                              <li>List Item 2</li>
+                              <li>List Item 3</li>
+                            </ul>
+                          </li>
+                          <li>List Item 3</li>
+                        </ul>
+                      </li>
+                      <li>List Item 3</li>
+                    </ul>
+                  </li>
+                  <li>List Item 3</li>
+                </ul>
+              </li>
+              <li>List Item 3</li>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+      <section id="table" class="col-12">
+        <div class="inner">
+          <header>
+            <h2>Table</h2>
+          </header>
+          <div class="content">
+            <table>
+              <caption>Table Caption</caption>
+              <thead>
+                <tr>
+                  <th>Table Heading 1</th>
+                  <th>Table Heading 2</th>
+                  <th>Table Heading 3</th>
+                  <th>Table Heading 4</th>
+                  <th>Table Heading 5</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Table Footer 1</th>
+                  <th>Table Footer 2</th>
+                  <th>Table Footer 3</th>
+                  <th>Table Footer 4</th>
+                  <th>Table Footer 5</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+                <tr>
+                  <td>Table Cell 1</td>
+                  <td>Table Cell 2</td>
+                  <td>Table Cell 3</td>
+                  <td>Table Cell 4</td>
+                  <td>Table Cell 5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="images" class="col-12">
+        <div class="inner">
+          <header>
+            <h2>Images</h2>
+          </header>
+          <div class="content">
+            <img src="https://placekitten.com/480/480" alt="Photo of a kitten">
+            <figure>
+              <img src="https://placekitten.com/480/480" alt="Photo of a kitten">
+              <figcaption>Photo of a kitten</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="form" class="col-12">
+        <div class="inner">
+          <header>
+            <h2>Form</h2>
+          </header>
+          <div class="content">
+            <form>
+              <fieldset id="forms__input">
+                <legend>Form fields</legend>
+                <label for="input__text">Text Input</label>
+                <input id="input__text" type="text" placeholder="Text Input">
+                
+                <label for="input__password">Password</label>
+                <input id="input__password" type="password" placeholder="Type your Password">
+                
+                <label for="select">Select</label>
+                <select id="select">
+                  <optgroup label="Option Group">
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                  </optgroup>
+                </select>
+              </fieldset>
+              <button type="reset" disabled>Reset</button>
+              <button type="submit">Submit</button>
+              
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+</body>
+</html>
